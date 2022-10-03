@@ -1,0 +1,173 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Regular-webfont.woff') format('woff');
+  }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Roboto', sans-serif;   /* Add 'Roboto' here */
+    color: #5D6063;
+}
+
+.header-container {
+    padding: 40px 100px;
+}
+
+.header-logo img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+}
+
+.header-bottom {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+.header-text-container {
+    margin-bottom: 20px;
+}
+
+.header-photo img {
+    width: auto;
+    height: 200px;
+    border-radius: 25px;
+}
+
+.middle-photos img {
+    width: 200px;
+    height: auto;
+    border-radius: 30px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAf8;
+    margin: 20px 0;
+    line-height: 1em;
+}
+
+.hero-secondary-text,
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    margin: 20px 0;
+}
+
+.header-container,
+.footer {
+    background-color: #1F2937;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links > a {
+    margin-left: 15px;
+}
+
+/* Middle Content*/
+
+.middle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middle-header-text {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    margin: 30px;
+}
+
+.middle-photos {
+    display: flex;
+    gap: 50px;
+}
+
+.photo {
+    width: 200px;
+    text-align: center;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+
+    background-color: #E5E7EB;
+
+    padding: 100px 150px;
+    margin: 50px 0;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+
+    font-size: 18px;
+    color: #1F2937;
+    font-weight: bold;
+}
+
+.call-to-action-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #3882F6;
+    color: #E5E7EB;
+    width: 900px;
+    height: auto;
+    border-radius: 5px;
+    padding: 20px 80px;
+    margin-bottom: 50px;
+    gap: 20px;
+}
+
+.call-to-action-info {
+    font-size: 26px;
+    width: 75%;
+}
+
+.call-to-action-details {
+    font-size: 18px;
+}
+
+.sign-up-button a {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 8px;
+    border: 3px solid white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #E5E7EB;
+    padding: 20px;
+}
